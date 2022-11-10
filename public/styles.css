@@ -1,0 +1,28 @@
+body {
+/* fallback for old browsers */
+background: #000046;
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #1CB5E0, #000046);
+color: whitesmoke;
+}
+
+.headerContainer {
+    text-align: center;
+}
+
+.well {
+    background: #E86A47;
+    max-width: 45rem;
+    padding-bottom: 10px;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.btn-primary {
+    color: #75E847;
+    min-width: fit-content;
+}
