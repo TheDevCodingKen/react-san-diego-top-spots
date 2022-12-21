@@ -5,7 +5,7 @@
   "description": "The top spot to read all about San Diego Top Spots.",
   "private": true,
   "main": "server/index.js",
-  "license": "MIT",
+  "homepage": "https://github.com/TheDevCodingKen/react-san-diego-top-spots#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/TheDevCodingKen/react-san-diego-top-spots"
@@ -13,7 +13,7 @@
   "scripts": {
     "build": "webpack --mode development",
     "watch": "webpack --mode development --watch",
-    "start": "node server/index.js",
+    "start": "webpack --mode development && node server/index.js",
     "less": "lessc src/css/style.less dist/css/style.css",
     "lint": "eslint .",
     "test": "npm run build && mocha test/.setup.js test/*.spec.js --exit"
